@@ -90,3 +90,38 @@ Anuvad's development roadmap includes:
 - 🎙️ Voice-to-Text Customization: Enhancing voice input accuracy with regional dialect support.
 - 🔗 Integration with Other Platforms: Extending compatibility beyond Chrome to mobile and desktop applications.
 - 📈 AI Model Updates: Leveraging future versions of the Gemini Nano model for improved translation accuracy and speed.
+
+# Testing 
+## Enable Required Chrome Flags
+To access the AI capabilities needed for **Anuvad**, enable the following flags in Chrome:
+
+1. **Enable Prompt API for Gemini Nano**:
+   - Open Chrome and navigate to:  
+     `chrome://flags/#prompt-api-for-gemini-nano`  
+   - Set it to **Enabled**.
+
+2. **Enable Optimization Guide On-Device Model**:
+   - Open Chrome and navigate to:  
+     `chrome://flags/#optimization-guide-on-device-model`  
+   - Set it to **Enabled BypassPrefRequirement**.
+
+3. **Disable Text Safety Classifier**:
+   - Open Chrome and navigate to:  
+     `chrome://flags/#text-safety-classifier`  
+   - Set it to **Disabled**.
+
+4. **Download the Optimization Guide Model**:
+   - Navigate to:  
+     `chrome://components/`  
+   - Find **Optimization Guide On Device Model** and click **Update** to download the required model.
+
+---
+
+### 3. Verify Model Availability
+
+1. Open **Chrome DevTools**:  
+   Press `Ctrl + Shift + I` (Windows) or `Cmd + Shift + I` (Mac).
+
+2. In the **Console**, run the following command:
+   ```javascript
+   await ai.languageModel.create();
