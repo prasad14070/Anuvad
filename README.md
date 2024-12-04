@@ -1,6 +1,8 @@
 # Anuvad 🌐 🗣️ : The bridge between you and the world.
 A Gemini-Nano-Based Translations App
-![image](https://github.com/user-attachments/assets/330d24f7-76f1-44c0-8e91-fde6589dcba5)
+
+![Anuvad - Logo](https://github.com/user-attachments/assets/23a1565d-68ab-44c1-986d-27dbaa2852bb)
+
 # Problem Statement 🛠️
 In an increasingly globalized world, seamless translation across languages is essential for communication, accessibility, and collaboration. However, most translation applications rely heavily on cloud-based models, leading to latency, privacy concerns, and the need for constant internet connectivity. There is a growing need for a fast, reliable, and offline-capable translation solution that leverages on-device AI to offer instant results with enhanced privacy.
 
